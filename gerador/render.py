@@ -72,7 +72,7 @@ def slide_html(p, s, i, total):
     cls = "dark" if dark else "light"
     last = i == total
     hd = f'<div class="hd">{wm()}<div class="cnt">{i:02d} / {total:02d}</div></div>' if total > 1 else f'<div class="hd">{wm()}<div class="cnt">@launchcod</div></div>'
-    sw = '' if last else '<div class="sw">Arrasta <span style="font-size:34px">→</span></div>'
+    sw = "" if (last or os.environ.get("REEL")) else "<div class=\"sw\">Arrasta <span style=\"font-size:34px\">→</span></div>"
     ft = f'<div class="ft"><div class="h">@launchcod</div>{sw}</div>' if total > 1 else '<div class="ft"><div class="h">launchcode.com.br</div></div>'
     k = lambda: f'<div class="kick">{s["kick"] if "kick" in s else s.get("kicker","")}</div>' if s.get("kicker") else ''
     if t == "cover":
