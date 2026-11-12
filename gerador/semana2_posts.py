@@ -53,7 +53,7 @@ Quanto tempo seu cliente espera uma resposta?
 
 Responde só com a letra aqui nos comentários. Sem julgamento: a gente sabe que no pico ninguém tem mão sobrando. 😅
 
-Semana que vem a gente mostra como organizar isso sem contratar mais gente.
+Nos próximos posts a gente mostra como organizar isso sem contratar mais gente.
 
 #whatsapp #atendimento #delivery #comerciolocal #empreendedorismo #ubirata #parana #launchcode""",
     },
